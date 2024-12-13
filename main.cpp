@@ -16,11 +16,11 @@ public:
         cout << "My age is: " << Age << endl;
         cout << "Am attending : "<<Course_Name << endl;
     };
-    Student(string name1,string name2,string course,int no,int age) {
+    Student(string name1,string name2,string course,int reg_no,int age) {
         First_Name = name1;
         Last_Name = name2;
         Course_Name = course;
-        Reg_No = no;
+        Reg_No = reg_no;
         Age = age;
 
 
@@ -29,7 +29,7 @@ public:
 };
 
 int main() {
-    Student student1= Student("Priver","Cosmas","Diploma in Computer Science",23100523140004,18);
+    Student student1= Student("Priver","Cosmas","Diploma in Computer Science",7890,18);
     student1.Display_Student();
     return 0;
 }
