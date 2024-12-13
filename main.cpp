@@ -29,7 +29,7 @@ public:
 };
 
 int main() {
-    Student.student1= Student("Priver","Cosmas","Diploma in Computer Science",23100523140004,18);
-
+    Student student1= Student("Priver","Cosmas","Diploma in Computer Science",23100523140004,18);
+    student1.Display_Student();
     return 0;
 }
