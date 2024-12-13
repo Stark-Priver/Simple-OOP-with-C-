@@ -29,8 +29,7 @@ public:
 };
 
 int main() {
-    Student:student1(){
-    };
+    Student.student1= Student("Priver","Cosmas","Diploma in Computer Science",23100523140004,18);
 
     return 0;
 }
