@@ -16,12 +16,12 @@ public:
         cout << "My age is: " << Age << endl;
         cout << "Am attending : "<<Course_Name << endl;
     };
-    Student(string First_Name,string Last_Name,string Course_Name,int Reg_No,int Age) {
-        First_Name = First_Name;
-        Last_Name = Last_Name;
-        Course_Name = Course_Name;
-        Reg_No = Reg_No;
-        Age = Age;
+    Student(string name1,string name2,string course,int no,int age) {
+        First_Name = name1;
+        Last_Name = name2;
+        Course_Name = course;
+        Reg_No = no;
+        Age = age;
 
 
     }
